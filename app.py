@@ -25,7 +25,7 @@ def creating():
         );
         ''')
     conn.commit()
-    con.close()
+    conn.close()
     return "Basketball Table Sucessfully Created"
 
     
