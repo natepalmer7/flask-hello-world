@@ -11,6 +11,7 @@ def testing():
     conn = psycopg2.connect("postgres://lab10db_user:t43K9ALBZmgBQRax2uqi6xoypoR3awHc@dpg-cgme5qjk9u59cru7vd60-a/lab10db")
     conn.close()
     return "Database Connection Successful"
+
 @app.route('/db_create')
 def creating():
     conn = psycopg2.connect("postgres://lab10db_user:t43K9ALBZmgBQRax2uqi6xoypoR3awHc@dpg-cgme5qjk9u59cru7vd60-a/lab10db")
